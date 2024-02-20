@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_neo413001_juice_shop_1708464642642-pr-trigger-input-set
+  identifier: Build_neo413001_juice_shop_1708464642642prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_neo413001_juice_shop_1708464642642
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
